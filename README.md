@@ -16,17 +16,27 @@ class Car {
     }
 }
 
-#### Object
+#### 2. Object
 - An object is an instance of a class.
 - It contains actual values and can use the methods defined in its class.
 Car myCar = new Car();
 myCar.color = "Red";
 myCar.drive();
 
-### Attributes
+### 3. Attributes
 - Attributes (also called fields or properties) hold the state or characteristics of an object.
 - Defined inside the class.
-- Types of Attributes:
+Types of Attributes:
 
 - Instance attributes – unique to each object.
 - Class attributes – shared by all objects (using static keyword in Java).
+
+### 4. Methods
+- Methods define the behavior of an object.
+- They are functions written inside a class and can access object attributes.
+``` java
+class Car {
+    void drive() {
+        System.out.println("The car is moving");
+    }
+}
