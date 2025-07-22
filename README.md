@@ -1,4 +1,3 @@
-# OOP
 # Define OOP
 "Object-oriented programming, or OOP, is a way of designing software by thinking in terms of 'objects' — which are like real-world entities. Each object contains its own data (called attributes) and the actions it can perform (called methods). So instead of just writing functions that process data separately, OOP combines both into one unit — making code more modular, reusable, and closer to how we model things in real life."
 # What is the structure of object-oriented programming?
@@ -48,3 +47,12 @@ class Car {
         System.out.println("The car is moving");
     }
 }
+```
+# what are the benifits of OOP
+### Benefits of OOP Structure
+
+- Modularity: Code is divided into small units (classes/objects)
+- Reusability: Classes can be reused across programs
+- Encapsulation: Hides internal details and protects data
+- Abstraction: Focus on what the object does, not how
+- Inheritance & Polymorphism: Promote cleaner, extendable code
