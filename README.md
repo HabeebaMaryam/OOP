@@ -8,20 +8,22 @@
 - It defines the structure (attributes) and behavior (methods) common to all objects of that type.
 
 #### Example:
-
+``` java
 class Car {
     String color; // Attribute
     void drive() { // Method
         System.out.println("Driving the car...");
     }
 }
-
+```
 #### 2. Object
 - An object is an instance of a class.
 - It contains actual values and can use the methods defined in its class.
+``` java
 Car myCar = new Car();
 myCar.color = "Red";
 myCar.drive();
+```
 
 ### 3. Attributes
 - Attributes (also called fields or properties) hold the state or characteristics of an object.
@@ -30,6 +32,12 @@ Types of Attributes:
 
 - Instance attributes – unique to each object.
 - Class attributes – shared by all objects (using static keyword in Java).
+``` java
+class Car {
+    String color; // instance attribute
+    static int wheels = 4; // class attribute
+}
+```
 
 ### 4. Methods
 - Methods define the behavior of an object.
